@@ -1,0 +1,62 @@
+body{
+    padding: 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    margin-top: 400px;
+    background-image: linear-gradient(to right, #08007e, rgb(150, 0, 150));
+    opacity: 0.8;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    position: fixed;
+    box-shadow: 5px 5px 10px #0000003b;
+}
+
+form .log{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.txt p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.txt .nota{
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.txt .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt .check{
+    border: none;
+    border-radius: 8px;
+    width: 90px;
+    height: 40px;
+    background-color: #ffffff2d;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
