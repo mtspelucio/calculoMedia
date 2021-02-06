@@ -6,7 +6,7 @@ function check(){
 
     let media = (nota1 + nota2)  / 2
 
-    if(nota1 > 10 || nota2 > 10){
+    if(nota1 > 10 || nota2 > 10 || nota1 < 0 || nota2 < 0){
         alert("Valor digitado invalido! \nDigite uma nota de 0 a 10")
     } else if (media == 10){
         alert("Aprovado com distinção: " + media + "/10 pontos");
